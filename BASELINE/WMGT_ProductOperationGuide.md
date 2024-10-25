@@ -1,6 +1,6 @@
 <img src="https://www.symphosoft.com/logo/symphosoftLogo.png" alt="Symphosoft Logo" width="200"/>
 
-# คู่มือปฏิบัติงานสำหรับผู้ดูแลระบบ
+# คู่มือปฏิบัติงานสำหรับผู้ดูแลระบบ  (ต้องแก้ ที่มีอยู่เป็น user manaul)
 
 **ชื่อระบบงาน**: Recycle Waste Collecting Management System  
 **เวอร์ชัน**: 1.0  

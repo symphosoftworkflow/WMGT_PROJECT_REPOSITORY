@@ -437,7 +437,7 @@ API Design Overview:
 ## 5. User Interface
 
 #### 3.2.1 การออกแบบสำหรับลูกค้า (Customers)
-![Customer View](https://symphosoft.com/wmgt/CustomerView2.JPG)
+![Customer View](https://symphosoft.com/wmgt/customerview3.JPG)
 
 #### 3.2.2 การออกแบบสำหรับผู้เก็บขยะ (Collectors)
 ![Collector View](https://symphosoft.com/wmgt/collectorview.png)

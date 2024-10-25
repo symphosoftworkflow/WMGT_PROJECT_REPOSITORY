@@ -113,22 +113,22 @@
 
 | ชื่อเอกสาร                        | ตำแหน่ง      |
 |------------------------------------|---------------|
-| Statement_Of_Work                 | PM            |
-| ProjectPlan                        | PM            |
-| MeetingRecord                      | PM            |
-| ProgressStatusRecord               | PM            |
-| ChangeRequest                      | AN            |
-| CorrectionRegister                 | PM            |
-| AcceptanceRecord                   | PM            |
-| VerificationResults                | TL            |
-| SoftwareConfiguration              | AN            |
-| ValidationResults                  | AN            |
-| SoftwareRequirementSpecification   | AN            |
-| SoftwareDesign                     | AN            |
-| TraceabilityMatrix                 | AN            |
+| Statement_Of_Work (SOW)                 | PM            |
+| ProjectPlan (PMP)                       | PM            |
+| MeetingRecord   (MOM)                   | PM            |
+| ProgressStatusRecord  (PSR)             | PM            |
+| ChangeRequest   (CR)                   | AN            |
+| CorrectionRegister  (CRR)               | PM            |
+| AcceptanceRecord   (UAT)                | PM            |
+| VerificationResults  (VER)              | TL            |
+| SoftwareConfiguration   (SC)           | AN            |
+| ValidationResults   (VAL)               | AN            |
+| SoftwareRequirementSpecification (SRS)  | AN            |
+| SoftwareDesign (SDS)                    | AN            |
+| TraceabilityMatrix  (RTM)               | AN            |
 | SoftwareComponents                 | PR            |
-| TestCasesAndTestProcedures         | TESTER        |
-| TestReport                         | TESTER        |
+| TestCasesAndTestProcedures (TP)        | TESTER        |
+| TestReport  (TR)                       | TESTER        |
 
 เจ้าของเอกสาร (Owner) จะได้สิทธิ์แบบ Full ส่วนคณะทำงานในโครงการสามารถเข้าถึงได้แบบ Read Only
 

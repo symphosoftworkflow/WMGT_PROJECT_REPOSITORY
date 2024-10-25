@@ -1,0 +1,77 @@
+@startuml
+!define RECTANGLE class
+
+start
+
+' Customer Flow
+:Customer Opens App;
+:Customer Logs In;
+:Customer Views Dashboard;
+
+if (Submit Request?) then (Yes)
+  :Customer Submits Request (Location, Date, Photos);
+  :Request Submitted Successfully;
+else (No)
+endif
+
+if (View Request Status?) then (Yes)
+  :Customer Views Request Status;
+else (No)
+endif
+
+if (Check Payment History?) then (Yes)
+  :Customer Views Payment History;
+else (No)
+endif
+
+stop
+
+' Collector Flow
+start
+:Collector Logs In;
+:Collector Views Dashboard;
+
+if (View Assigned Requests?) then (Yes)
+  :Collector Views Assigned Requests;
+else (No)
+endif
+
+if (Plan Route?) then (Yes)
+  :Collector Plans Route;
+else (No)
+endif
+
+if (Update Collection Status?) then (Yes)
+  :Collector Updates Collection Status (Weight, Price);
+else (No)
+endif
+
+stop
+
+' Administrator Flow
+start
+:Administrator Logs In;
+:Administrator Views Dashboard;
+
+if (View All Requests?) then (Yes)
+  :Administrator Views All Requests;
+else (No)
+endif
+
+if (Assign Collector to Request?) then (Yes)
+  :Administrator Assigns Collector;
+else (No)
+endif
+
+if (Process Payments?) then (Yes)
+  :Administrator Processes Payments;
+else (No)
+endif
+
+if (Set Recycle Prices?) then (Yes)
+  :Administrator Sets Daily Recycle Prices;
+else (No)
+endif
+
+stop
+@enduml

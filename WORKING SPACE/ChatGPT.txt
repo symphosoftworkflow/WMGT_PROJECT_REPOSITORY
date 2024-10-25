@@ -1,0 +1,25 @@
+ChatGPT เป็นผู้สร้างเอกสาร Software Design Document ของงานผลิตซอฟท์แวร์  โดยมีข้อมูลให้ ChatGPT ศึกษาตามนี้
+
+1. รูปแบบเอกสาร Template_SI_SystemSoftwareDesign.PDF
+2. WMGT_SRS_v2.md เป็นข้อมูล Software Requirements Specifications ให้ ChatGPT ออกแบบเนื้อหา Software Design Document จากข้อมูลในไฟล์นี้  โดยให้ใช้ REQ  prefix เปลี่ยนเป็น DES prefix ในแต่ละหัวข้อของ Software Detail Design  และทำเป็นรูปตาราง
+3. ผมได้กำหนดข้อมูลเหล่านี้ มาให้เพื่อใช้ใส่เป็นรูปภาพ ในเอกสาร Software Design Document  กรุณากำหนด เอกสารและรูปภาพให้เหมาะสมตามหัวข้อใน Template แต่ถ้าไม่มีหัวข้อ ให้เพิ่มหัวข้อใหม่เข้าไปได้เลยในเอกสารที่จะสร้าง
+
+PlantUML Diagram Name
+1	 Component Diagram (High-Level Architecture) รูปภาพที่  https://symphosoft.com/wmgt/APIDesignDiagram.svg
+2	 Class Diagram (Internal Structure) รูปภาพที่  https://symphosoft.com/wmgt/ClassDiagramInternalStructure.svg
+3	 Sequence Diagram (For All Roles) รูปภาพที่  https://symphosoft.com/wmgt/SequenceDiagram.png
+4	 Deployment Diagram (Deployment View)  รูปภาพที่  https://symphosoft.com/wmgt/DeploymentDiagram.svg
+5	 Data Dictionary Diagram  รูปภาพที่  https://symphosoft.com/wmgt/DataDictionaryDiagram.svg
+6	 Use Case Diagram รูปภาพที่  https://symphosoft.com/wmgt/UseCaseDiagram.svg
+7	 UI Component Checklist (Sitemap)  รูปภาพที่  https://symphosoft.com/wmgt/UIComponentChecklist.svg
+8	 User Flow Diagram รูปภาพที่  https://symphosoft.com/wmgt/UserFlowDiagram.svg
+9	 API Design Diagram with Request/Response Payloads   รูปภาพที่  https://symphosoft.com/wmgt/APIDesignDiagram.svg
+
+4.  เพิ่มหัวข้อ  API Payload specification  ในเอกสารตามไฟล์ APIPayloads.txt ที่แนบมา
+
+โดยจุดประสงของเอกสารที่สร้างนี้ คือ  เป็น Software Design Document ซึ่งจะแสดงรายละเอียดการออกแบบ Software
+
+โดยเอกสารที่ส่ง ChatGPT สร้างให้จะเป็น  
+1. markdown format (md file) ภาษาไทย  
+2. ใช้  company logo จาก url https://www.symphosoft.com/logo/symphosoftLogo.png  ขนาด 200px อยู่ด้านบนของเอกสาร output
+3. สามารถ copy code  markdown จาก output ได้

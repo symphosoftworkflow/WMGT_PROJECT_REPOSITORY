@@ -1,0 +1,12 @@
+No	Stack	Technologies	Type
+1	Frontend	"Built with Next.js (version 14) app routing  using TypeScript, 
+leveraging NextUI for user interface components and Tailwind CSS for styling."	Internal
+2	Backend	"Implemented using Next.js API Routes app routing, 
+connecting to a MySQL database via mysql2."	Internal
+3	Messaging	"Utilizes RabbitMQ for inter-service communication, 
+ensuring efficient message handling between different parts of the system."	Internal
+4	Caching	"Employs Redis to cache frequently accessed data, 
+enhancing system performance and reducing database load."	Internal
+5	Payment Gateway	Interfaces with external payment systems to facilitate transactions to customers.	External
+6	Mapping Service	"Incorporates mapping APIs to assist in route planning and to 
+provide visual representations of collection points."	External

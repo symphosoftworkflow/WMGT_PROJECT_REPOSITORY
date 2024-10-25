@@ -1,0 +1,301 @@
+Detailed API Design:
+
+1. Request Management API (Customer Flow)
+
+1.1. Submit a New Request
+
+• Endpoint: POST /api/requests
+
+• Purpose: Allows the customer to submit a new waste collection request.
+
+• Request Payload:
+
+
+{
+"customerId": 123,
+"location": "123 Main St, City",
+"date": "2024-10-19",
+"time": "After noon",
+"photos": ["photo1.jpg", "photo2.jpg"]
+}
+
+
+• Response Payload (on success):
+
+
+{
+"requestId": 456,
+"status": "PENDING",
+"message": "Request submitted successfully."
+}
+
+
+• HTTP Status Codes:
+
+• 201 Created: Request successfully created.
+
+• 400 Bad Request: Invalid data provided.
+
+
+1.2. View Request Status
+
+• Endpoint: GET /api/requests/{id}/status
+
+• Purpose: Allows the customer to check the status of their request.
+
+• Response Payload:
+
+
+{
+"requestId": 456,
+"status": "ASSIGNED", // Can be PENDING, ASSIGNED, COLLECTED, PAID
+"collector": {
+"id": 789,
+"name": "John Doe"
+},
+"message": "Your request has been assigned to a collector."
+}
+
+
+• HTTP Status Codes:
+
+• 200 OK: Request status retrieved successfully.
+
+• 404 Not Found: Request not found.
+
+
+2. Collector API (Collector Flow)
+
+2.1. View Assigned Requests
+
+• Endpoint: GET /api/collector/requests
+
+• Purpose: Collector can view all assigned requests.
+
+• Response Payload:
+
+
+[
+{
+"requestId": 456,
+"customerId": 123,
+"location": "123 Main St, City",
+"date": "2024-10-19",
+"status": "ASSIGNED"
+},
+{
+"requestId": 457,
+"customerId": 124,
+"location": "456 Elm St, City",
+"date": "2024-10-20",
+"status": "ASSIGNED"
+}
+]
+
+
+• HTTP Status Codes:
+
+• 200 OK: Requests retrieved successfully.
+
+• 404 Not Found: No requests assigned to the collector.
+
+
+2.2. Update Collection Status
+
+• Endpoint: PUT /api/collector/requests/{id}/status
+
+• Purpose: Allows the collector to update the status of the request after collection.
+
+• Request Payload:
+
+
+{
+"status": "COLLECTED",
+"weight": 120.5,
+"pricePerKg": 2.5,
+"totalAmount": 301.25
+}
+
+
+• Response Payload (on success):
+
+
+{
+"requestId": 456,
+"status": "COLLECTED",
+"totalAmount": 301.25,
+"message": "Collection details updated successfully."
+}
+
+
+• HTTP Status Codes:
+
+• 200 OK: Status updated successfully.
+
+• 400 Bad Request: Invalid data provided.
+
+• 404 Not Found: Request not found.
+
+
+3. Admin API (Admin Flow)
+
+3.1. View All Requests
+
+• Endpoint: GET /api/requests
+
+• Purpose: Admin can view all customer requests.
+
+• Response Payload:
+
+
+[
+{
+"requestId": 456,
+"customerId": 123,
+"status": "PENDING",
+"date": "2024-10-19",
+"location": "123 Main St"
+},
+{
+"requestId": 457,
+"customerId": 124,
+"status": "ASSIGNED",
+"date": "2024-10-20",
+"location": "456 Elm St"
+}
+]
+
+
+• HTTP Status Codes:
+
+• 200 OK: Requests retrieved successfully.
+
+
+3.2. Assign Collector to Request
+
+• Endpoint: POST /api/requests/{id}/assign
+
+• Purpose: Admin assigns a collector to a customer request.
+
+• Request Payload:
+
+
+{
+"collectorId": 789,
+"routePlan": "Optimal route for 3 locations"
+}
+
+
+• Response Payload (on success):
+
+
+{
+"requestId": 456,
+"status": "ASSIGNED",
+"collectorId": 789,
+"message": "Collector assigned successfully."
+}
+
+
+• HTTP Status Codes:
+
+• 200 OK: Collector assigned successfully.
+
+• 404 Not Found: Request or collector not found.
+
+
+3.3. Process Payments
+
+• Endpoint: POST /api/payments/process
+
+• Purpose: Admin processes payment for collected waste.
+
+• Request Payload:
+
+
+{
+"requestId": 456,
+"customerId": 123,
+"totalAmount": 301.25,
+"paymentSlip": "payment_slip_456.jpg"
+}
+
+
+• Response Payload (on success):
+
+
+{
+"requestId": 456,
+"status": "PAID",
+"totalAmount": 301.25,
+"paymentSlip": "payment_slip_456.jpg",
+"message": "Payment processed successfully."
+}
+
+
+• HTTP Status Codes:
+
+• 200 OK: Payment processed successfully.
+
+• 400 Bad Request: Invalid data provided.
+
+
+4. Notification API
+
+4.1. Send Notification
+
+• Endpoint: POST /api/notifications/send
+
+• Purpose: Admin can send notifications to users (Customers, Collectors).
+
+• Request Payload:
+
+
+{
+"recipientId": 123,
+"message": "Your waste collection request has been assigned to a collector."
+}
+
+
+• Response Payload (on success):
+
+
+{
+"notificationId": 789,
+"status": "SENT",
+"message": "Notification sent successfully."
+}
+
+
+• HTTP Status Codes:
+
+• 200 OK: Notification sent successfully.
+
+• 400 Bad Request: Invalid data provided.
+
+
+API Design Overview:
+
+• Customer APIs:
+
+• Submit Request: POST /api/requests
+
+• View Request Status: GET /api/requests/{id}/status
+
+• View Payment History: GET /api/payments/history
+
+• Collector APIs:
+
+• View Assigned Requests: GET /api/collector/requests
+
+• Update Collection Status: PUT /api/collector/requests/{id}/status
+
+• Admin APIs:
+
+• View All Requests: GET /api/requests
+
+• Assign Collector: POST /api/requests/{id}/assign
+
+• Process Payments: POST /api/payments/process
+
+• Send Notifications: POST /api/notifications/send

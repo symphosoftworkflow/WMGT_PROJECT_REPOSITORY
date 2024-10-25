@@ -1,0 +1,47 @@
+@startuml
+left to right direction
+
+package "Recycle Waste Collecting System UI" {
+
+  package "Customer" {
+    [Customer Dashboard]
+    [Submit Request Form]
+    [View Request Status Page]
+    [Payment History Page]
+    [Check Recycle Prices Page]
+  }
+
+  package "Collector" {
+    [Collector Dashboard]
+    [View Assigned Requests Page]
+    [Plan Route Page]
+    [Update Collection Status Page]
+    [View Collection History Page]
+  }
+
+  package "Administrator" {
+    [Admin Dashboard]
+    [View All Requests Page]
+    [Assign Collectors to Requests Page]
+    [Manage Payments Page]
+    [Set Recycle Prices Page]
+    [View Completed Requests Page]
+  }
+
+  [Customer Dashboard] --> [Submit Request Form]
+  [Customer Dashboard] --> [View Request Status Page]
+  [Customer Dashboard] --> [Payment History Page]
+  [Customer Dashboard] --> [Check Recycle Prices Page]
+
+  [Collector Dashboard] --> [View Assigned Requests Page]
+  [Collector Dashboard] --> [Plan Route Page]
+  [Collector Dashboard] --> [Update Collection Status Page]
+  [Collector Dashboard] --> [View Collection History Page]
+
+  [Admin Dashboard] --> [View All Requests Page]
+  [Admin Dashboard] --> [Assign Collectors to Requests Page]
+  [Admin Dashboard] --> [Manage Payments Page]
+  [Admin Dashboard] --> [Set Recycle Prices Page]
+  [Admin Dashboard] --> [View Completed Requests Page]
+}
+@enduml

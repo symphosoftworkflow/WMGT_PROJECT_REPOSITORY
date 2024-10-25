@@ -1,6 +1,6 @@
 <img src="https://www.symphosoft.com/logo/symphosoftLogo.png" alt="Symphosoft Logo" width="200"/>
 
-# คู่มือการบำรุงรักษาระบบ
+# คู่มือการบำรุงรักษาระบบ (Maintenance Documentation)
 ## ระบบจัดการการเก็บขยะรีไซเคิล (Recycle Waste Collecting Management System)
 **เวอร์ชัน:** 1.0  
 **จัดทำโดย:** บริษัท Symphosoft  

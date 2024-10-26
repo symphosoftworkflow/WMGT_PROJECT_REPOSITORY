@@ -100,13 +100,12 @@
 
 ---
 
-<ul style="list-style-type: none;">
-  <li><input type="checkbox" style="width: 20px; height: 20px;" checked> อนุมัติ </li>
-  <li><input type="checkbox" style="width: 20px; height: 20px;"> Task 3: ไม่อนุมัติ</li>
-</ul>
-
+ - [x] อนุมัติ
+ - [ ] ไม่อนุมัติ
+  
+  
 *** __________________________________________ ***  
-    <div style="display: inline; text-align: center;">(CEO)</div>  
+                  (CEO)  
 
 **อนุมัติโดย**: CEO  
 **วันที่**: [15 มีนาคม พ.ศ. 2567]  

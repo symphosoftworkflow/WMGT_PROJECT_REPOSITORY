@@ -128,7 +128,48 @@ Recycle Waste Collecting Management System ออกแบบมาเพื่�
 ![User Flow Diagram](https://symphosoft.com/wmgt/UserFlowDiagram.svg)
 
 ### 4.8 แผนภาพ Enhanced Entity-Relationship (EER Model)  
-![EER Diagram](https://symphosoft.com/wmgt/EerDiagramV3.svg)
+![EER Diagram](https://symphosoft.com/wmgt/EerDiagramV3.svg)   
+   
+### 4.9 Data Dictionary   
+
+| **Table Name**   | **Column Name**      | **Data Type**         | **Description**                                      | **Constraints**                           | **Default Value**   |
+|------------------|----------------------|------------------------|------------------------------------------------------|-------------------------------------------|----------------------|
+| **User**         | id                   | INT                    | Unique identifier for each user                      | Primary Key, Auto Increment               |                      |
+|                  | name                 | VARCHAR(100)           | Name of the user                                     | NOT NULL                                  |                      |
+|                  | email                | VARCHAR(100)           | Email address of the user                            | NOT NULL, Unique                          |                      |
+|                  | role                 | ENUM                   | Role of the user (Customer, Collector, Administrator) | NOT NULL                                  |                      |
+|                  | password             | VARCHAR(255)           | Password hash for authentication                     | NOT NULL                                  |                      |
+| **Request**      | id                   | INT                    | Unique identifier for each request                   | Primary Key, Auto Increment               |                      |
+|                  | customerId           | INT                    | ID of the customer who created the request           | Foreign Key → User(id), NOT NULL          |                      |
+|                  | location             | VARCHAR(255)           | Location of the collection                           | NOT NULL                                  |                      |
+|                  | date                 | DATE                   | Requested date for collection                        | NOT NULL                                  |                      |
+|                  | time                 | ENUM                   | Preferred time for collection (BeforeNoon, AfterNoon) | NOT NULL                                  |                      |
+|                  | status               | ENUM                   | Status of the request (Pending, Assigned, Collected, Paid) | NOT NULL                      | 'Pending'            |
+|                  | photos               | TEXT                   | Photos of the waste (comma-separated URLs)           |                                           |                      |
+| **Assignment**   | id                   | INT                    | Unique identifier for each assignment                | Primary Key, Auto Increment               |                      |
+|                  | requestId            | INT                    | ID of the request being assigned                     | Foreign Key → Request(id), NOT NULL       |                      |
+|                  | collectorId          | INT                    | ID of the collector assigned to the request          | Foreign Key → User(id), NULLABLE          | NULL                 |
+|                  | routePlan            | VARCHAR(255)           | Optimized route details for collection               |                                           |                      |
+|                  | status               | ENUM                   | Status of assignment (Assigned, Accepted, Completed) | NOT NULL                                  | 'Assigned'           |
+| **Collection**   | id                   | INT                    | Unique identifier for each collection record         | Primary Key, Auto Increment               |                      |
+|                  | requestId            | INT                    | ID of the request collected                          | Foreign Key → Request(id), NOT NULL       |                      |
+|                  | collectorId          | INT                    | ID of the collector who handled the collection       | Foreign Key → User(id), NULLABLE          | NULL                 |
+|                  | itemName             | VARCHAR(255)           | Name of the collected item                           | NOT NULL                                  |                      |
+|                  | weight               | FLOAT                  | Weight of collected material                         | NOT NULL                                  |                      |
+|                  | pricePerKg           | FLOAT                  | Price per kilogram for the material                  | NOT NULL                                  |                      |
+|                  | totalAmount          | FLOAT                  | Total amount to be paid                              | NOT NULL                                  |                      |
+|                  | collectionDate       | DATE                   | Date of collection                                   | NOT NULL                                  |                      |
+| **Payment**      | id                   | INT                    | Unique identifier for each payment                   | Primary Key, Auto Increment               |                      |
+|                  | requestId            | INT                    | ID of the request being paid                         | Foreign Key → Request(id), NOT NULL       |                      |
+|                  | customerId           | INT                    | ID of the customer receiving payment                 | Foreign Key → User(id), NOT NULL          |                      |
+|                  | amount               | FLOAT                  | Amount paid to the customer                          | NOT NULL                                  |                      |
+|                  | paymentDate          | DATE                   | Date of payment                                      | NOT NULL                                  |                      |
+|                  | paymentSlip          | VARCHAR(255)           | File path or URL to payment slip                     |                                           |                      |
+| **Notification** | id                   | INT                    | Unique identifier for each notification              | Primary Key, Auto Increment               |                      |
+|                  | recipientId          | INT                    | ID of the user receiving the notification            | Foreign Key → User(id), NOT NULL          |                      |
+|                  | message              | TEXT                   | Content of the notification                          | NOT NULL                                  |                      |
+|                  | status               | ENUM                   | Status of notification (Sent, Delivered, Read)       | NOT NULL                                  | 'Sent'               |
+|                  | notificationDate     | DATE                   | Date the notification was sent                       | NOT NULL                                  |                      |
 ---
 
 ## 5. API Payload Specification

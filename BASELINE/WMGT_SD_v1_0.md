@@ -128,7 +128,7 @@ Recycle Waste Collecting Management System ออกแบบมาเพื่�
 ![User Flow Diagram](https://symphosoft.com/wmgt/UserFlowDiagram.svg)
 
 ### 4.8 แผนภาพ Enhanced Entity-Relationship (EER Model)  
-![EER Diagram](https://symphosoft.com/wmgt/EerDiagram.svg)
+![EER Diagram](https://symphosoft.com/wmgt/EerDiagramV2.svg)
 ---
 
 ## 5. API Payload Specification

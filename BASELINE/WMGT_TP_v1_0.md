@@ -4,6 +4,10 @@
 **ระบบจัดการการเก็บขยะรีไซเคิล (Recycle Waste Collecting Management System)**
 
 ---
+## แผนการทดสอบ [ TEST PLAN ]  
+
+<img src="https://www.symphosoft.com/testplan.jpg" alt="Symphosoft Logo" width="400"/>
+
 
 ## รายละเอียดการทดสอบ
 

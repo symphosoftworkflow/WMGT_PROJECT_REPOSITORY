@@ -178,8 +178,7 @@
 - **Document**: แผนโครงการจะถูกกำหนดเป็น Version ตามกระบวนการ Base Line และจะปรับ Version ย่อยทุกครั้งที่มีการปรับปรุง
 
 ### 8.4 การ Backup และ Recovery
-- **Daily Backup**:  ทำการ Backup ทุกวัน เวลา [Time] โดยนำข้อมูลทั้งหมดจาก Repository ไปจัดเก็บไว้ที่ [DailyBackup] ภายใต้ [YYYY-MM-DD]  
-- **Weekly Backup**: ทำการ Backup ทุกวัน [Date] ของสัปดาห์ เวลา [Time] โดยนำข้อมูลไปจัดเก็บไว้ที่ [WeeklyBackup]
+- **Monthly Backup**: ทำการ Backup ทุกวันที่ 30 ของเดือน โดยนำข้อมูลไปจัดเก็บไว้ที่ Github Repository รับผิดชอบโดย ปริญญา พงษ์ดนตรี [PR]
 
 การกู้คืนข้อมูล (Recovery) ต้องดำเนินการด้วยความระมัดระวังและมีการสำรองข้อมูลชั่วคราว (Temporary Backup) ทุกครั้งเพื่อมิให้เกิดความผิดพลาด
 

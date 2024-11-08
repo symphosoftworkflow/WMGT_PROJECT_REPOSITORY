@@ -103,4 +103,4 @@
 - มีการทดสอบในหลายระดับ เช่น การทดสอบหน่วย (Unit Testing) การทดสอบการทำงานรวม (Integration Testing) และการทดสอบภาระงาน (Load Testing)
 
 ## 6.  SLA [Service Level Agreement]  
-- กำหนด System downtime ไม่เกิน  6  ชั่วโมง รับผิดชอบโดย   นายปริญญา พงษ์ดนตรี [PR]      |
+- กำหนด System downtime ไม่เกิน  6  ชั่วโมง รับผิดชอบโดย   นายปริญญา พงษ์ดนตรี [PR]    ระบุเป็น Level  minor  ,major, critical ทำเป็นตาราง หลายระดับ ความรุนแรง

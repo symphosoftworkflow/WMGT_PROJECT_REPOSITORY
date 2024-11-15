@@ -482,11 +482,31 @@ API Design Overview:
 
 ## 5. User Interface
 
-#### 5.2.1 การออกแบบสำหรับลูกค้า (Customers)
-![Customer View](https://symphosoft.com/wmgt/customerview3.JPG)
+#### 5.2.1 การออกแบบสำหรับลูกค้า (Customers)  
 
-#### 5.2.2 การออกแบบสำหรับผู้เก็บขยะ (Collectors)
-![Collector View](https://symphosoft.com/wmgt/collectorview.png)
+| Design ID | UI Design                                                                                 |
+|-----------|--------------------------------------------------------------------------------------------|
+| DES1.1    | ![UI Design](https://www.symphosoft.com/wmgt/des/des11.jpg)                                |
+| DES1.2    | ![UI Design](https://www.symphosoft.com/wmgt/des/des12.jpg)                                |
+| DES1.3    | ![UI Design](https://www.symphosoft.com/wmgt/des/des13.jpg)                                |
+| DES1.4    | ![UI Design](https://www.symphosoft.com/wmgt/des/des14.jpg)                                |  
 
-#### 5.2.3 การออกแบบสำหรับผู้ดูแลระบบ (Administrators)
-![Admin View](https://symphosoft.com/wmgt/adminview.png)
+
+#### 5.2.2 การออกแบบสำหรับผู้เก็บขยะ (Collectors)  
+
+| Design ID | UI Design                                                                                 |
+|-----------|--------------------------------------------------------------------------------------------|
+| DES2.1    | ![UI Design](https://www.symphosoft.com/wmgt/des/des21.jpg)                                |
+| DES2.2    | ![UI Design](https://www.symphosoft.com/wmgt/des/des22.jpg)                                |
+| DES2.3    | ![UI Design](https://www.symphosoft.com/wmgt/des/des23.jpg)                                |
+| DES2.4    | ![UI Design](https://www.symphosoft.com/wmgt/des/des24.jpg)                                |  
+
+#### 5.2.3 การออกแบบสำหรับผู้ดูแลระบบ (Administrators)  
+
+| Design ID | UI Design                                                                                 |
+|-----------|--------------------------------------------------------------------------------------------|
+| DES3.1    | ![UI Design](https://www.symphosoft.com/wmgt/des/des31.jpg)                                |
+| DES3.2    | ![UI Design](https://www.symphosoft.com/wmgt/des/des32.jpg)                                |
+| DES3.3    | ![UI Design](https://www.symphosoft.com/wmgt/des/des33.jpg)                                |
+| DES3.4    | ![UI Design](https://www.symphosoft.com/wmgt/des/des34.jpg)                                |  
+

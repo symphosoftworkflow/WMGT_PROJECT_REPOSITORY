@@ -1,7 +1,22 @@
 <img src="https://www.symphosoft.com/logo/symphosoftLogo.png" alt="Symphosoft Logo" width="200"/>
 
 # Traceability Record Document  
-**ระบบจัดการการเก็บขยะรีไซเคิล (Recycle Waste Collecting Management System)**
+**ระบบจัดการการเก็บขยะรีไซเคิล (Recycle Waste Collecting Management System)**  
+  
+**ชื่อระบบงาน[TH]**: ระบบจัดการการจัดเก็บขยะรีไซเคิล  
+**ชื่อระบบงาน[EN]**: Recycle Waste Collecting Management System  
+**เวอร์ชัน**: 1.0  
+**จัดทำโดย**: นายวีระ เนียมโภคะ (TL,AN) 
+**วันที่อนุมัติเอกสาร**: [31 พฤษภาคม พ.ศ. 2567]  
+
+---
+
+## ประวัติการจัดทำเอกสาร
+
+| ลำดับ | เวอร์ชัน | รายละเอียดการดำเนินการ | ผู้ดำเนินการ | วันที่ดำเนินการ |
+|-------|----------|-------------------------|--------------|-----------------|
+| 1     | 0.1      | จัดทำ Traceability Record | นายวีระ เนียมโภคะ| [28 พฤษภาคม พ.ศ. 2567]        |
+| 2     | 1.0      | อนุมัติ Traceability Record | นางสาวปวริศา จันทรสถาพร | [31 พฤษภาคม พ.ศ. 2567]        |
 
 ---
 

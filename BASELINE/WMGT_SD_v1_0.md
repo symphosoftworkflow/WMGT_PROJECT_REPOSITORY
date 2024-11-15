@@ -6,8 +6,8 @@
 **ชื่อระบบงาน[TH]**: ระบบจัดการการจัดเก็บขยะรีไซเคิล  
 **ชื่อระบบงาน[EN]**: Recycle Waste Collecting Management System  
 **เวอร์ชัน**: 1.0  
-**จัดทำโดย**: นายปริญญา พงษ์ดนตรี (DES) 
-**วันที่จัดทำเอกสาร**: [31 พฤษภาคม พ.ศ. 2567]  
+**จัดทำโดย**: นายวีระ เนียมโภคะ (TL) 
+**วันที่อนุมัติเอกสาร**: [31 พฤษภาคม พ.ศ. 2567]  
 
 ---
 
@@ -482,11 +482,11 @@ API Design Overview:
 
 ## 5. User Interface
 
-#### 3.2.1 การออกแบบสำหรับลูกค้า (Customers)
+#### 5.2.1 การออกแบบสำหรับลูกค้า (Customers)
 ![Customer View](https://symphosoft.com/wmgt/customerview3.JPG)
 
-#### 3.2.2 การออกแบบสำหรับผู้เก็บขยะ (Collectors)
+#### 5.2.2 การออกแบบสำหรับผู้เก็บขยะ (Collectors)
 ![Collector View](https://symphosoft.com/wmgt/collectorview.png)
 
-#### 3.2.3 การออกแบบสำหรับผู้ดูแลระบบ (Administrators)
+#### 5.2.3 การออกแบบสำหรับผู้ดูแลระบบ (Administrators)
 ![Admin View](https://symphosoft.com/wmgt/adminview.png)

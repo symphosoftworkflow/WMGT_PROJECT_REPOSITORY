@@ -169,7 +169,8 @@ Recycle Waste Collecting Management System ออกแบบมาเพื่�
 |                  | recipientId          | INT                    | ID of the user receiving the notification            | Foreign Key → User(id), NOT NULL          |                      |
 |                  | message              | TEXT                   | Content of the notification                          | NOT NULL                                  |                      |
 |                  | status               | ENUM                   | Status of notification (Sent, Delivered, Read)       | NOT NULL                                  | 'Sent'               |
-|                  | notificationDate     | DATE                   | Date the notification was sent                       | NOT NULL                                  |                      |
+|                  | notificationDate     | DATE                   | Date the notification was sent                       | NOT NULL                                  |                      |  
+
 ---
 
 ## 5. API Payload Specification

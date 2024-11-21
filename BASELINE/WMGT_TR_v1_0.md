@@ -1,6 +1,6 @@
 <img src="https://www.symphosoft.com/logo/symphosoftLogo.png" alt="Symphosoft Logo" width="200"/>
 
-# บันทึกผลการทดสอบระบบ (Proj_Test_Report)
+# บันทึกผลการทดสอบระบบ (TEST REPORT)
 
 ## โครงการ: ระบบจัดการการเก็บขยะรีไซเคิล (Recycle Waste Collecting Management System)
 
@@ -27,8 +27,8 @@
  - [ ] ไม่อนุมัติ  
     
 
-      
-*** __________________________________________ ***  [Signature]
+***  <img src="https://www.symphosoft.com/signature_weera.png"  width="400"/>         ***      
+ ______________________________________________________________________________  [Signature]
 
 
 **อนุมัติโดย**: คุณ นายวีระ เนียมโภคะ  (TL)  

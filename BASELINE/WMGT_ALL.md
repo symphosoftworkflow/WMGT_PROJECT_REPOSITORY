@@ -9,13 +9,13 @@
 | 5    | WMGT_POG_v1_0   | [WMGT_POG_v1_0](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_POG_v1_0) |
 | 6    | WMGT_RTM_v1_0   | [WMGT_RTM_v1_0](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_RTM_v1_0) |
 | 7    | WMGT_SC_v1_0    | [WMGT_SC_v1_0](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_SC_v1_0) |
-| 8    | WMGT_SD_v1_0    | [WMGT_SD_v1_0](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_SD_v1_0) |
+| 8    | WMGT_SDD_v1_0    | [WMGT_SDD_v1_0](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_SDD_v1_0) |
 | 9    | WMGT_SOW_v1_0   | [WMGT_SOW_v1_0](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_SOW_v1_0) |
 | 10   | WMGT_SRS_v1_0   | [WMGT_SRS_v1_0](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_SRS_v1_0) |
 | 11   | WMGT_TP_v1_0    | [WMGT_TP_v1_0](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_TP_v1_0) |
 | 12   | WMGT_TR_v1_0    | [WMGT_TR_v1_0](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_TR_v1_0) |
 | 13   | WMGT_UAT_v1_0   | [WMGT_UAT_v1_0](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_UAT_v1_0) |
-| 14   | WMGT_UM_v1_0    | [WMGT_UM_v1_0](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_UM_v1_0) |
+| 14   | WMGT_SUD_v1_0    | [WMGT_SUD_v1_0](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_SUD_v1_0) |
 | 15   | WMGT_CR         | |
 | 15.1 | WMGT_CR_20240513 | [WMGT_CR_20240513](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_CR/WMGT_CR_20240513) |
 | 15.2 | WMGT_CR_20240610 | [WMGT_CR_20240610](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_CR/WMGT_CR_20240610) |

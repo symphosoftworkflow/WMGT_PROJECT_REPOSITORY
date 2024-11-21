@@ -3,7 +3,7 @@
 | No   | ISO/IEC 29110 Work Products    | Work Products Name | Source/Path in Project Repository                                                                                 |
 |------|--------------------------------|--------------------|--------------------------------------------------------------------------------------------------------------------|
 |      | **PM PROCESS**                |                    |                                                                                                                    |
-|      | Feasibility Study             |                    |                                                                                                                    |
+|      | Feasibility Study             | WMGT_FEA           | [WMGT_FEA_V1_0](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_FEA_v1_0)               |
 | 1    | Statement of Work             | WMGT_SOW           | [WMGT_SOW_v1_0](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_SOW_v1_0)               |
 | 2    | Project Plan                  | WMGT_PMP           | [WMGT_PMP_v1_0](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_PMP_v1_0)               |
 |      |                               | WMGT_PMPC          | [WMGT_PMPC_v1_0](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_PMPC_v1_0)             |

@@ -59,23 +59,7 @@
 | 4.1   | ส่วนต่อประสานผู้ใช้ (User Interface)                                                                      | [x]      |
 | 4.2   | การใช้งานง่าย (Usability and Ease of Use)                                                                 | [x]      |
 | 4.3   | ประสิทธิภาพ (Efficiency)                                                                                  | [x]      |
-| 4.4   | ความน่าเชื่อถือ (Reliability)                                                                             | [x]      |
-| 5     | รูปแบบของหน้าจอการใช้งาน (User Interface Design)                                                         | [x]      |
-| 5.2.1 | การออกแบบสำหรับลูกค้า (Customers):                                                                         | [x]      |
-|       | - DES1.1: ![UI Design](https://www.symphosoft.com/wmgt/des/des11.jpg)                                       | [x]      |
-|       | - DES1.2: ![UI Design](https://www.symphosoft.com/wmgt/des/des12.jpg)                                       | [x]      |
-|       | - DES1.3: ![UI Design](https://www.symphosoft.com/wmgt/des/des13.jpg)                                       | [x]      |
-|       | - DES1.4: [!UI Design](https://www.symphosoft.com/wmgt/des/des14.jpg)                                       | [x]      |
-| 5.2.2 | การออกแบบสำหรับผู้เก็บขยะ (Collectors):                                                                   | [x]      |
-|       | - DES2.1: ![UI Design](https://www.symphosoft.com/wmgt/des/des21.jpg)                                       | [x]      |
-|       | - DES2.2: ![UI Design](https://www.symphosoft.com/wmgt/des/des22.jpg)                                       | [x]      |
-|       | - DES2.3: ![UI Design](https://www.symphosoft.com/wmgt/des/des23.jpg)                                       | [x]      |
-|       | - DES2.4: ![UI Design](https://www.symphosoft.com/wmgt/des/des24.jpg)                                       | [x]      |
-| 5.2.3 | การออกแบบสำหรับผู้ดูแลระบบ (Administrators):                                                              | [x]      |
-|       | - DES3.1: ![UI Design](https://www.symphosoft.com/wmgt/des/des31.jpg)                                       | [x]      |
-|       | - DES3.2: ![UI Design](https://www.symphosoft.com/wmgt/des/des32.jpg)                                       | [x]      |
-|       | - DES3.3: ![UI Design](https://www.symphosoft.com/wmgt/des/des33.jpg)                                       | [x]      |
-|       | - DES3.4: ![UI Design](https://www.symphosoft.com/wmgt/des/des34.jpg)                                       | [x]      |
+| 4.4   | ความน่าเชื่อถือ (Reliability)                                                                             | [x]      |  
 
 ---
 

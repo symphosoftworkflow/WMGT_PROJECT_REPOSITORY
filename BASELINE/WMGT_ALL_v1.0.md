@@ -27,7 +27,7 @@
 | 5.7  |                              |  WMGT_PSR_202409   | [WMGT_PSR_202409](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_PSR/WMGT_PSR_202410)  |
 | 6    | Project Repository Backup     |                    |                                                                                                                    |
 | 7    | Correction Register           | WMGT_CRR           | [WMGT_CRR](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_CRR)                         |
-| 8    | Change Request                | WMGT_CRR           |                                                                                                                    |
+| 8    | Change Request                | WMGT_CR            |                                                                                                                    |
 | 8.1  |                              |  WMGT_CR_20240513   | [WMGT_CR_20240513](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_CR/WMGT_CR_20240513) |
 | 8.2  |                              |  WMGT_CR_20240610   | [WMGT_CR_20240610](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_CR/WMGT_CR_20240610) |
 | 9    | Validation Results            | WMGT_VLD          |                                                                                                                    |

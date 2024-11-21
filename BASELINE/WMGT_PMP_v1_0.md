@@ -232,7 +232,7 @@
  - [ ] ไม่อนุมัติ  
     
 
-***  <img src="https://www.symphosoft.com/signature.png"  width="200"/>  ***      
+***  <img src="https://www.symphosoft.com/signature.png"  width="400"/>         ***      
  ______________________________________________________________________________  [Signature]
 
 

@@ -7,6 +7,7 @@
 | 1    | Statement of Work             | WMGT_SOW           | [WMGT_SOW_v1_0](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_SOW_v1_0)               |
 | 2    | Project Plan                  | WMGT_PMP           | [WMGT_PMP_v1_0](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_PMP_v1_0)               |
 |      |                               | WMGT_PMPC          | [WMGT_PMPC_v1_0](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_PMPC_v1_0)             |
+|      |                               | WMGT_SHED          | [WMGT_SHED_v1_0](https://docs.google.com/spreadsheets/d/1fgMTMYXsqo_k2Nfk9HH2q_Clys_rWR-CupaSHZHf0pU/edit?usp=share_link)|
 | 3    | Project Repository            | WMGT_PRP           | [WMGT_PRP](https://github.com/symphosoftworkflow/WMGT_PROJECT_REPOSITORY)                                          |
 | 4    | Meeting Record                | WMGT_MOM           |                                                                                                                    |
 | 4.1  |                               | WMGT_MOM_20240329 | [WMGT_MOM_20240329](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_MOM/WMGT_MOM_20240329) |

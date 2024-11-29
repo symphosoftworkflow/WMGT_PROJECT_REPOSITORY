@@ -44,7 +44,7 @@
 | 10.7 |                              | WMGT_VER_TP_20240615 | [WMGT_VER_TP_20240615](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_VER/WMGT_VER_TP_20240615) |
 | 10.8 |                              | WMGT_VER_TR_20240615| [WMGT_VER_TR_20240615](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_VER/WMGT_VER_TR_20240615) |
 | 10.9 |                              | WMGT_VER_SUD_20241003 | [WMGT_VER_SUD_20241003](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_VER/WMGT_VER_SUD_20241003) |
-| 11   | Software Configuration        | WMGT_SWC           | [WMGT_SWC](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_SWC_v1_0)                    |
+| 11   | Software Configuration        | WMGT_SWC           | [WMGT_SWC](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_SWC_V1_0)                    |
 | 12   | Acceptance Record             | WMGT_UAT           | [WMGT_UAT_v1_0](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_UAT_v1_0)               |
 |      | **SI PROCESS**                |                    |                                                                                                                    |
 | 13   | Requirements Specification    | WMGT_SRS           | [WMGT_SRS_v1_0](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_SRS_v1_0)               |

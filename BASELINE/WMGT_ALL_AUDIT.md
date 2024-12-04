@@ -25,7 +25,7 @@
 | 5.4  |                              |  WMGT_PSR_202407   | [WMGT_PSR_202407](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_PSR/WMGT_PSR_202407)  |
 | 5.5  |                              |  WMGT_PSR_202408   | [WMGT_PSR_202408](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_PSR/WMGT_PSR_202408)  |
 | 5.6  |                              |  WMGT_PSR_202409   | [WMGT_PSR_202409](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_PSR/WMGT_PSR_202409)  |
-| 5.7  |                              |  WMGT_PSR_202409   | [WMGT_PSR_202409](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_PSR/WMGT_PSR_202410)  |
+| 5.7  |                              |  WMGT_PSR_202410   | [WMGT_PSR_202410](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_PSR/WMGT_PSR_202410)  |
 | 6    | Project Repository Backup    |  WMGT_BUP          | [WMGT_BUP](https://drive.google.com/drive/folders/1mX_ASpqYgfb4Rx2PAkBgRleApIvKGevP?usp=share_link)                |
 | 7    | Correction Register           | WMGT_CRR           | [WMGT_CRR](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_CRR)                         |
 | 8    | Change Request                | WMGT_CR            |                                                                                                                    |

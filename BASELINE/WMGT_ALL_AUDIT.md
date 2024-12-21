@@ -58,3 +58,16 @@
 | 20   | Product Operation Guide       | WMGT_POG           | [WMGT_POG_v1_0](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_POG_v1_0)               |
 | 21   | Software User Documentation   | WMGT_SUD           | [WMGT_SUD_v1_0](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_SUD_v1_0)               |
 | 22   | Maintenance Documentation     | WMGT_MA            | [WMGT_MA_v1_0](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/WMGT_MA_v1_0)                 |  
+
+
+
+---
+
+## NEW UPDATE TEMPLATE
+
+| No   | Template Name                  | Table Name       | Source/Path in Project Repository                                                                                     |
+|------|--------------------------------|------------------|----------------------------------------------------------------------------------------------------------------------|
+| 1    | Meeting Record                 | WMGT_MOM         | [WMGT_MOM_TEMPLATE](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/NEW_TEMPLATE/WMGT_MOM_TEMPLATE_NEW) |
+| 2    | Change Request                 | WMGT_CR          | [WMGT_CR_TEMPLATE](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/NEW_TEMPLATE/WMGT_CR_TEMPLATE_NEW) |
+| 3    | Progress Status Record         | WMGT_PSR         | [WMGT_PSR_TEMPLATE](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/NEW_TEMPLATE/WMGT_PSR_TEMPLATE_NEW) |
+| 4    | Test Cases and Test Procedures | WMGT_TP          | [WMGT_TP_TEMPLATE](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/NEW_TEMPLATE/WMGT_TP_TEMPLATE_NEW) |  

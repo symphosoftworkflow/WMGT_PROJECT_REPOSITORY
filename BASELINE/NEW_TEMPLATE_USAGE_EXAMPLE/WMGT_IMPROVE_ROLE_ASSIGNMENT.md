@@ -26,7 +26,7 @@
 |                       |                   |  กำหนดความเชื่อมโยงของของเอกสารและซอฟท์แวร์                       |  TraceabilityMatrix (RTM)                           | DES                    |
 |                       |                   |  ศึกษาความเป็นไปได้ของโครงการ                                    |  Feasibility Study                                  | PM                     |
 | นายปริญญา พงษ์ดนตรี      | DES               |  ออกแบบสถาปัตยกรรมระบบ                                         |  SoftwareComponents (SC)                            | TL                     |
-| นายปริญญา พงษ์ดนตรี      | PR                |  พัฒนาและทดสอบโปรแกรม                                          |  Software (SW)                                      | PR2                 |
+| นายปริญญา พงษ์ดนตรี      | PR                |  พัฒนาและทดสอบโปรแกรม                                          |  Software (SW)                                      | PR2,AI                 |
 |                       |                   |  สำรองข้อมูลโครงการ                                             |  Project Repository Backup                          | PM                     |
 | นายประกาศิต ทองนอก     | TESTER            |  ทดสอบการใช้งานของระบบ                                         |  TestReport (TR)                                    | TL                     |
 |                       |                   |  จัดทำเอกสารการใช้งานของ Super User                             |  Product Operation Guide (POG)                      | PM                     |

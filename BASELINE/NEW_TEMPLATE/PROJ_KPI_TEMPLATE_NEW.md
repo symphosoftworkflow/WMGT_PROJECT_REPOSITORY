@@ -1,8 +1,7 @@
-# KPI สำหรับการประชุม Progress Report โครงการ  
 <img src="https://www.symphosoft.com/logo/symphosoftLogo.png" alt="Symphosoft Logo" width="200"/>
 
-**ชื่อระบบงาน [TH]:** ระบบจัดการการจัดเก็บขยะรีไซเคิล  
-**ชื่อระบบงาน [EN]:** Recycle Waste Collecting Management System  
+**ชื่อระบบงาน [TH]:** [ชื่อโครงการภาษาไทย]  
+**ชื่อระบบงาน [EN]:** [ชื่อโครงการภาษาอังกฤษ]    
 
 ---
 

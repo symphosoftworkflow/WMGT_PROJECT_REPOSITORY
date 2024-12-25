@@ -73,10 +73,10 @@
 | 1    | User Requirement Specification | PROJ_URS         | [PROJ_URS_TEMPLATE](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/NEW_TEMPLATE/PROJ_URS_TEMPLATE_NEW) | [WMGT_URS_v1_0](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/NEW_TEMPLATE_USAGE_EXAMPLE/WMGT_URS_V1_0)                                                  |
 | 2    | Project Cost                   | PROJ_PMPC        | [PROJ_PMPC_TEMPLATE](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/NEW_TEMPLATE/PROJ_PMPC_TEMPLATE_NEW) | [WMGT_PMPC_v1_0](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/NEW_TEMPLATE_USAGE_EXAMPLE/WMGT_PMPC_V1_0)                                                |
 | 3    | Meeting Record                 | PROJ_MOM         | [PROJ_MOM_TEMPLATE](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/NEW_TEMPLATE/PROJ_MOM_TEMPLATE_NEW) | 
-                                                                                                                                                                                 |
+                                        |
 | 4    | Change Request                 | PROJ_CR          | [PROJ_CR_TEMPLATE](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/NEW_TEMPLATE/PROJ_CR_TEMPLATE_NEW) | 
-                                                                                                                                                                                 |
+                                        |
 | 5    | Progress Status Record         | PROJ_PSR         | [PROJ_PSR_TEMPLATE](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/NEW_TEMPLATE/PROJ_PSR_TEMPLATE_NEW) |
-                                                                                                                                                                                 |
+                                        |
 |      | **SI PROCESS**                 |                  |                                                                                                                       |                                                                                                        |
 | 5    | Test Cases and Test Procedures | PROJ_TP          | [PROJ_TP_TEMPLATE](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/NEW_TEMPLATE/PROJ_TP_TEMPLATE_NEW) | [Filling Form Example](https://example.com/TP_FORM_EXAMPLE)                                                   |

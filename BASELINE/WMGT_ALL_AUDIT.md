@@ -65,9 +65,14 @@
 
 ## NEW UPDATE TEMPLATE
 
-| No   | Template Name                  | Table Name       | Source/Path in Project Repository                                                                                     |
-|------|--------------------------------|------------------|----------------------------------------------------------------------------------------------------------------------|
-| 1    | Meeting Record                 | WMGT_MOM         | [WMGT_MOM_TEMPLATE](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/NEW_TEMPLATE/WMGT_MOM_TEMPLATE_NEW) |
-| 2    | Change Request                 | WMGT_CR          | [WMGT_CR_TEMPLATE](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/NEW_TEMPLATE/WMGT_CR_TEMPLATE_NEW) |
-| 3    | Progress Status Record         | WMGT_PSR         | [WMGT_PSR_TEMPLATE](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/NEW_TEMPLATE/WMGT_PSR_TEMPLATE_NEW) |
-| 4    | Test Cases and Test Procedures | WMGT_TP          | [WMGT_TP_TEMPLATE](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/NEW_TEMPLATE/WMGT_TP_TEMPLATE_NEW) |  
+## NEW UPDATE TEMPLATE
+
+| No   | Template Name                  | Table Name       | Source/Path in Project Repository                                                                                     | Form Filling Example                                                                                   |
+|------|--------------------------------|------------------|-----------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+|      | **PM PROCESS**                 |                  |                                                                                                                       |                                                                                                        |
+| 1    | User Requirement Specification | PROJ_URS         | [PROJ_URS_TEMPLATE](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/NEW_TEMPLATE/PROJ_URS_TEMPLATE_NEW) | [Filling Form Example](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/NEW_TEMPLATE/WMGT_URS_V1_0)                                                  |
+| 2    | Meeting Record                 | PROJ_MOM         | [PROJ_MOM_TEMPLATE](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/NEW_TEMPLATE/PROJ_MOM_TEMPLATE_NEW) | [Filling Form Example](https://example.com/MOM_FORM_EXAMPLE)                                                  |
+| 3    | Change Request                 | PROJ_CR          | [PROJ_CR_TEMPLATE](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/NEW_TEMPLATE/PROJ_CR_TEMPLATE_NEW) | [Filling Form Example](https://example.com/CR_FORM_EXAMPLE)                                                   |
+| 4    | Progress Status Record         | PROJ_PSR         | [PROJ_PSR_TEMPLATE](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/NEW_TEMPLATE/PROJ_PSR_TEMPLATE_NEW) | [Filling Form Example](https://example.com/PSR_FORM_EXAMPLE)                                                  |
+|      | **SI PROCESS**                 |                  |                                                                                                                       |                                                                                                        |
+| 5    | Test Cases and Test Procedures | PROJ_TP          | [PROJ_TP_TEMPLATE](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/NEW_TEMPLATE/PROJ_TP_TEMPLATE_NEW) | [Filling Form Example](https://example.com/TP_FORM_EXAMPLE)                                                   |

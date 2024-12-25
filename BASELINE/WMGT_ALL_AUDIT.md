@@ -77,6 +77,5 @@
 | 7    | Progress Status Record         | PROJ_PSR         | [PROJ_PSR_TEMPLATE](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/NEW_TEMPLATE/PROJ_PSR_TEMPLATE_NEW) | |
 | 8    | Change Request                 | PROJ_CR          | [PROJ_CR_TEMPLATE](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/NEW_TEMPLATE/PROJ_CR_TEMPLATE_NEW) | |
 | 9    | Knowledge Management           | PROJ_KM          | [PROJ_KM_TEMPLATE](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/NEW_TEMPLATE/PROJ_KM_TEMPLATE_NEW) | [WMGT_KM_v1_1](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/NEW_TEMPLATE_USAGE_EXAMPLE/WMGT_KM_V1_0)          
-
 |      | **SI PROCESS**                 |                  |                                                                                                                       |                                                                                                        |
 | 10   | Test Cases and Test Procedures | PROJ_TP          | [PROJ_TP_TEMPLATE](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/NEW_TEMPLATE/PROJ_TP_TEMPLATE_NEW) | [WMGT_TR_V1_1](https://symphosoftworkflow.github.io/WMGT_PROJECT_REPOSITORY/BASELINE/NEW_TEMPLATE_USAGE_EXAMPLE/WMGT_TR_V1_0)                                        |
